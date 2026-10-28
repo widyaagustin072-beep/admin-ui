@@ -1,6 +1,13 @@
 import "./App.css";
+import Exercise from "./Exercise";
 
 function App() {
+    const showPosts = window.location.hash === "#posts";
+
+  if (showPosts) {
+    return <Exercise />;
+  }
+
   return (
     <main className="min-h-screen bg-special-mainBg flex justify-center items-center">
       {/* container start */}
