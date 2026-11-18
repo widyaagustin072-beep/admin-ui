@@ -1,5 +1,5 @@
 import "./App.css";
-import Exercise from "./Exercise";
+import Exercise from "./latihan/Exercise";
 
 function App() {
     const showPosts = window.location.hash === "#posts";
