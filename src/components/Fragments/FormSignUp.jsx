@@ -106,9 +106,9 @@ function FormSignUp() {
       {/* link start */}
       <div className="flex justify-center text-sm text-gray-03">
         Already have an account?{' '}
-        <a className="text-primary font-bold ml-1">
+        <link to="/login" className="text-primary font-bold ml-1">
           Sign in here
-        </a>
+        </link>
       </div>
       {/* link end */}
     </>
