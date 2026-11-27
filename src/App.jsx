@@ -4,6 +4,7 @@ import SignIn from "./pages/SignIn";
 import SignUp from "./pages/SignUp";
 import ErrorPage from "./pages/error";
 import DashboardPage from "./pages/dashboard";
+import BalancePage from "./pages/balance";
 
 function App() {
   const myRouter = createBrowserRouter([
@@ -20,6 +21,10 @@ function App() {
     {
       path: "/register",
       element: <SignUp/>,
+    },
+    {
+      path: "/balance",
+      element: <BalancePage />,
     },
   ]);
 
