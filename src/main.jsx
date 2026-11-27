@@ -5,9 +5,8 @@ import App from './App.jsx'
 import PageDashboard from './latihan/pages/PageDashboard.jsx'
 
 
-
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <PageDashboard/>
+    <App/>
   </StrictMode>,
 );
